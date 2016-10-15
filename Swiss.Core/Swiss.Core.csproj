@@ -214,7 +214,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ChatMessage.cs" />
+    <Compile Include="DisposeCallback.cs" />
+    <Compile Include="ConnectionState.cs" />
+    <Compile Include="IChatChannel.cs" />
+    <Compile Include="IChatMessage.cs" />
+    <Compile Include="IChatServer.cs" />
+    <Compile Include="IChatServerFactory.cs" />
+    <Compile Include="IChatUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

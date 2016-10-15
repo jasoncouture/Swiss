@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="TestServerFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestServer.cs" />
+    <Compile Include="TestServerInstaller.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Swiss.Core\Swiss.Core.csproj">
